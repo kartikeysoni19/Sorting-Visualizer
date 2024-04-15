@@ -1,0 +1,138 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+nav{
+  width: 100vw;
+  height: 30vh;
+  background-color: #3b3a3a;
+  color: rgb(29, 239, 60);
+  display: flex;
+}
+
+
+nav .array-inputs {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  padding: 5% 0;
+}
+
+span{
+  display: flex;
+}
+
+span>input {
+  display: flex;
+  margin-left: 10px;
+}
+
+.array-inputs{
+  width: 35vw;
+  display: flex;
+  justify-items: left;
+  gap: 15%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+
+nav .array-inputs #a_generate {
+  background-color: rgb(22, 210, 166);
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  width: 50%;
+  margin-top: 5%;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xx-large;
+  margin-left: 2vw;
+} 
+
+.header_right{
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.algos button{
+  background-color: red;
+  border: none;
+  color: white;
+  margin-left: 2vw;
+  padding:0.2vw 1vw; 
+  border-radius: 10px;
+}
+
+nav .header_right .algos button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+section .Complexity_Containers {
+  margin-top: 20%;
+}
+
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 20%;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+section #Info_Cont1 {
+  padding: 20% 10%;
+}
+
+section #Info_Cont1 h3 {
+  text-decoration: underline;
+}
+
+section #array_container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+section #Info_Cont2 {
+  padding: 20% 10%;
+}
+
+section #Info_Cont2 h3 {
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
